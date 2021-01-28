@@ -1,0 +1,11 @@
+{
+  "name": "weathers",
+  "version": "1.0.0",
+  "description": "a program for showing weather and specifications of a country and show the capital on map",
+  "main": "weather.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "usef",
+  "license": "ISC"
+}

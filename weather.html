@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.0.1/mapbox-gl.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.0.1/mapbox-gl.css" rel="stylesheet" />
+<style>
+  body { margin: 0; padding: 0; }
+ 
+</style>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body >
+    <div class="up">
+        <select name="" id="select" onchange="appended()">
+            <option value="choose"  >Choose a Country</option>
+        </select>
+        
+
+    </div>
+    <div id="country" class="country">
+        <h2 >Country Name: ---</h2>
+        <p >Native Name: ---</p>
+        <p >Capital: ---</p>
+        <p >Region: ---</p>
+        <p >Population: ---</p>
+        <p >Languages: ---</p>
+        <p >Time Zone: ---</p>
+
+    </div>
+    <div class="country code">
+        <h3>Calling Code</h3>
+        <p id="call">---</p>
+
+    </div>
+    <div  class="country flag">
+       
+    </div>
+    <div class=" country weather">
+        <h2 class="h2-weather">Capital Weather Report</h2>
+        <p>Wind speed: --- </p>
+        <p>Temperature: --- </p>
+        <p>Humidity: --- </p>
+        <p>Visibility: --- </p>
+
+    </div>
+
+
+    
+<div id="map" class="country map"> 
+   
+</div>
+
+
+
+<script src="https://unpkg.com/es6-promise@4.2.4/dist/es6-promise.auto.min.js"></script>
+<script src="https://unpkg.com/@mapbox/mapbox-sdk/umd/mapbox-sdk.min.js"></script>
+
+    <script src="weather.js"></script>
+</body>
+</html>

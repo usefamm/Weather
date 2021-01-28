@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(75, 155, 187);
+}
+.up {
+  background-color: rgba(29, 141, 141, 0.692);
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  
+}
+#select {
+    border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.country {
+  padding: 10px;
+  margin-top: 10px;
+  width: 33%;
+  height: 277px;
+  background-color: gray;
+  color: white;
+}
+.country p {
+  color: yellow;
+  
+}
+.country p:hover{
+    background-color: rgb(84, 84, 153);
+}
+.code {
+  padding: 0;
+  padding-top: 10px;
+  text-align: center;
+  margin-left: 6px;
+}
+.code:hover{
+    opacity: 0.6;
+}
+#call {
+  margin: 0%;
+  font-size: 55px;
+  color: rgb(0, 0, 0);
+  padding: 0;
+  width: 100%;
+  background-color: orangered;
+  height: 208px;
+  padding-top: 60px;
+}
+.flag {
+    background-color:rgb(75, 155, 187);
+  padding: 0;
+
+  margin-left: 6px;
+}
+.flag:hover{
+    opacity: 0.6;
+}
+#image {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+}
+.weather{
+    padding: 0%;
+   
+    height: 200px;
+    background-color: rgb(75, 155, 187);
+}
+.h2-weather{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+ 
+    padding: 10px;
+    padding-left: 73px;
+    color: yellow;
+    background-color: gray;
+    width: 100%;
+    height: 55px;
+}
+.weather p{
+    margin: 10px;
+    padding-left: 10px;
+    color: black;
+    background-color:rgb(75, 155, 187);
+}
+.icon{
+    text-align: center;
+ 
+}
+.imagee{
+  width: 100px;
+  height: 70px;
+}
+#description{
+    height: 30px;
+    font-family: fantasy;
+    font-size: 30px;
+   color: blue;
+    margin: auto;
+}
+.map{
+    background-color: rgb(75, 155, 187);
+    padding: 0;
+    width: 66%;
+    margin-left: 6px;
+}
